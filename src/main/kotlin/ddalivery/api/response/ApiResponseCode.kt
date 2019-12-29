@@ -1,7 +1,6 @@
 package com.lyj.ddalivery.ddalivery.api.response
 
 
-import enums.model.EnumStringModel
 import lombok.Getter
 import lombok.RequiredArgsConstructor
 

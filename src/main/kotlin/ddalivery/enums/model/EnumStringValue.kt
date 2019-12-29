@@ -1,4 +1,4 @@
-package enums.model
+package ddalivery.enums.model
 
 class EnumStringValue(enumModel: EnumStringModel) {
     val key: String

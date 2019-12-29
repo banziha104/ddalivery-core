@@ -1,4 +1,4 @@
-package enums.model
+package ddalivery.enums.model
 
 class EnumIntegerValue(enumModel: EnumIntegerModel) {
     val key: Int
