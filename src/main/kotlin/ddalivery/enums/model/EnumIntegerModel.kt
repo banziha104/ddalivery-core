@@ -1,4 +1,4 @@
-package enums.model
+package ddalivery.enums.model
 
 interface EnumIntegerModel {
     val key: Int

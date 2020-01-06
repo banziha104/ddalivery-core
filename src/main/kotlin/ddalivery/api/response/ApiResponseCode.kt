@@ -1,13 +1,7 @@
 package com.lyj.ddalivery.ddalivery.api.response
 
 
-import enums.model.EnumStringModel
-import lombok.Getter
-import lombok.RequiredArgsConstructor
 
-
-@Getter
-@RequiredArgsConstructor
 enum class ApiResponseCode(var message : String) {
     OK("요청이 성공하였습니다."),
     BAD_PARAMETER("요청 파라미터가 잘못되었습니다."),

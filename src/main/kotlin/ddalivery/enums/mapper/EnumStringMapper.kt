@@ -1,7 +1,7 @@
-package enums.mapper
+package ddalivery.enums.mapper
 
-import enums.model.EnumStringModel
-import enums.model.EnumStringValue
+import ddalivery.enums.model.EnumStringModel
+import ddalivery.enums.model.EnumStringValue
 import java.util.*
 import java.util.function.Function
 import java.util.stream.Collectors
