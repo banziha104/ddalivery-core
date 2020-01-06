@@ -4,7 +4,6 @@ import io.jsonwebtoken.Claims
 import io.jsonwebtoken.Jws
 import io.jsonwebtoken.Jwts
 import io.jsonwebtoken.SignatureAlgorithm
-import lombok.RequiredArgsConstructor
 import org.apache.commons.lang3.math.NumberUtils
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken
 import org.springframework.security.core.Authentication
@@ -16,7 +15,6 @@ import java.util.*
 import javax.servlet.http.HttpServletRequest
 
 
-@RequiredArgsConstructor
 @Component
 class JwtTokenProvider {
     //@NonNull

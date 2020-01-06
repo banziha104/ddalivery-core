@@ -1,8 +1,6 @@
 package ddalivery.jwt
 
-import lombok.Getter
 
-@Getter
 class JwtSettings {
     val tokenExpirationTime: Long = 365
     val tokenIssuer: String = "http://ddalivery.com"

@@ -1,8 +1,6 @@
 package com.lyj.ddalivery.ddalivery.api.response
 
-import lombok.Getter
 
-@Getter
 class ApiException(var status : ApiResponseCode) : RuntimeException() {
     override lateinit var message: String
 
