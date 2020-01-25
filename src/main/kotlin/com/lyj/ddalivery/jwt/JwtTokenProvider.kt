@@ -35,7 +35,7 @@ class JwtTokenProvider {
         val claims: Claims = Jwts.claims().setSubject(session.loginId)
 
         val issuedAt = Date.from(currentTime.toInstant(ZoneOffset.UTC))
-        val expiration = Date.from(currentTime.plusHours(settings.tokenExpirationTime).toInstant(ZoneOffset.UTC))
+        val expiration = Date.from(currentTime.plusDays(settings.tokenExpirationTime).toInstant(ZoneOffset.UTC))
         claims.put("name", session.name)
         claims.put("address", session.address)
 
