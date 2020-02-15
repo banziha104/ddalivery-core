@@ -16,8 +16,8 @@ import javax.persistence.MappedSuperclass
 open abstract class AuditModel<PK : Serializable?> : BaseEntity<PK>() {
     @CreatedDate
     @Column(nullable = false, updatable = false)
-    private val createdDt: LocalDateTime? = null
+    private var createdDt: LocalDateTime? = null
     @LastModifiedDate
     @Column(updatable = false)
-    private val updatedDt: LocalDateTime? = null
+    private var updatedDt: LocalDateTime? = null
 }
